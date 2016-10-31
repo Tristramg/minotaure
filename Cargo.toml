@@ -1,0 +1,13 @@
+[package]
+name = "minotaure"
+version = "0.1.0"
+authors = ["Tristram Gräbener <tristramg@gmail.com>"]
+
+[dependencies]
+osm4routing = "0.2.0"
+iron = "0.4.*"
+diesel = "0.8.0"
+diesel_codegen = { version = "0.8.0", features = ["postgres"] }
+dotenv = "0.8.0"
+byteorder = "0.5.3"
+diesel_postgis ={ path = "../diesel-postgis"}
